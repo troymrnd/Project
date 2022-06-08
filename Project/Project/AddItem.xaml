@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Project.AddItem"
+             BackgroundImageSource="dd.jpg">
+    <ContentPage.Content>
+        <StackLayout Margin="10" VerticalOptions="StartAndExpand" HorizontalOptions="FillAndExpand">
+            <Entry Placeholder="Enter Animal Code"/>
+            <Entry Placeholder="Initial Identification"/>
+            <Entry Placeholder="Enter Kingdom"/>
+            <Entry Placeholder="Enter Class"/>
+            <Entry Placeholder="Enter Family"/>
+            <Entry Placeholder="Enter Genus"/>
+            <Entry Placeholder="Enter Scientific name"/>
+            <Entry Placeholder="Enter Taxonomy"/>
+            <Entry Placeholder="Enter Characteristics"/>
+            <Entry Placeholder="Enter Habitat"/>
+            <Entry Placeholder="Enter Threats"/>
+            <Entry Placeholder="Enter Conservation"/>
+            <Button Text="Save" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
